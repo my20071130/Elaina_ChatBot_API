@@ -11,7 +11,7 @@ answers là phần bot sẽ reply lại
 
 ###  Cách dùng API JS:
 ```js
-const key = "your_key"
+const key = "OTg2MTA1Mzk3NTMyMzAzMzgw.GZdpZn.QrR8c_il4HwxFsiE62wdw_ixjUJPadXmQALfxU"
 let res = await axios.get(encodeURI(`https://api.elainateam.xyz/chatbot?key=${key}&msg=${message.content}`));
     if (!res.data.msg){
         return message.channel.send(`Tớ hong biết bạn đang nói j á`)
